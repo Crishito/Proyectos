@@ -15,7 +15,7 @@ public class Formulario extends HttpServlet {
     //recibe 2 objetos
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //Servidor me va a responder con el formulatio
+        //S1ervidor me va a responder con el formulatio
         resp.setContentType("text/html");
         //obtenemos los parametros
         String usuario = req.getParameter("usuario");
